@@ -1,0 +1,63 @@
+.c-item {
+    height: 100vh;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: fit;
+    filter: brightness(0.9);
+}
+
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 14px;
+    text-align: center;
+    color: black;
+}
+.clock{
+    display: flex;
+}
+
+.clock div{
+        margin: 5px;
+}
+
+.clock span{
+    width: 100px;
+    height: 80px;
+    background: slateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    opacity: 0.8;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+}
+.clock .text{
+    height: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: darkblue;
+    opacity: 0.8;
+
+}
+.clock #ampm {
+    
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: green;
+  }
+
+  .clock {
+    position: absolute;
+    top: 5%; 
+    left: 38%;
+
+  }
+  
